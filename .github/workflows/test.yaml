@@ -7,5 +7,5 @@ jobs:
       - name: my-step
         run: | 
           npm install python
-          python -c "print("Hello python")"
+          python -c "print(\"Hello python"\)"
         
