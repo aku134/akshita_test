@@ -5,5 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: npm install python
-        run: python -c "print("Hello python")"
+        run: | 
+          npm install python
+          python -c "print("Hello python")"
+        
